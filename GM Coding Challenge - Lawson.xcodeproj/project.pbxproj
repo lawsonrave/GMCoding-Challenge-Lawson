@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A79E74268BA238007AF9B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E73268BA238007AF9B1 /* AppDelegate.swift */; };
+		C9A79E76268BA238007AF9B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E75268BA238007AF9B1 /* SceneDelegate.swift */; };
+		C9A79E78268BA238007AF9B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E77268BA238007AF9B1 /* ViewController.swift */; };
+		C9A79E7B268BA238007AF9B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A79E79268BA238007AF9B1 /* Main.storyboard */; };
+		C9A79E7D268BA23A007AF9B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A79E7C268BA23A007AF9B1 /* Assets.xcassets */; };
+		C9A79E80268BA23A007AF9B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A79E7E268BA23A007AF9B1 /* LaunchScreen.storyboard */; };
+		C9A79E89268BA5CA007AF9B1 /* MusicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E88268BA5CA007AF9B1 /* MusicViewModel.swift */; };
+		C9A79E8F268BA7B4007AF9B1 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E8E268BA7B4007AF9B1 /* TableViewController.swift */; };
+		C9A79E96268BB0D5007AF9B1 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E95268BB0D5007AF9B1 /* MusicModel.swift */; };
+		C9A79E9B268CA573007AF9B1 /* TableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A79E9A268CA573007AF9B1 /* TableView.storyboard */; };
+		C9A79E9F268CA740007AF9B1 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79E9E268CA740007AF9B1 /* SearchViewModel.swift */; };
+		C9A79EAC268CB1F1007AF9B1 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EAA268CB1F1007AF9B1 /* SearchTableViewCell.swift */; };
+		C9A79EAD268CB1F1007AF9B1 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9A79EAB268CB1F1007AF9B1 /* SearchTableViewCell.xib */; };
+		C9A79EB1268CB318007AF9B1 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EB0268CB318007AF9B1 /* CellViewModel.swift */; };
+		C9A79EB5268CFDB0007AF9B1 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EB4268CFDB0007AF9B1 /* SpinnerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9A79E70268BA238007AF9B1 /* GM Coding Challenge - Lawson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GM Coding Challenge - Lawson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A79E73268BA238007AF9B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9A79E75268BA238007AF9B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C9A79E77268BA238007AF9B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9A79E7A268BA238007AF9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A79E7C268BA23A007AF9B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A79E7F268BA23A007AF9B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9A79E81268BA23A007AF9B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A79E88268BA5CA007AF9B1 /* MusicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewModel.swift; sourceTree = "<group>"; };
+		C9A79E8E268BA7B4007AF9B1 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C9A79E95268BB0D5007AF9B1 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MusicModel.swift; path = "GM Coding Challenge - Lawson/Model/MusicModel.swift"; sourceTree = SOURCE_ROOT; };
+		C9A79E9A268CA573007AF9B1 /* TableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableView.storyboard; sourceTree = "<group>"; };
+		C9A79E9E268CA740007AF9B1 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = "GM Coding Challenge - Lawson/SearchViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		C9A79EAA268CB1F1007AF9B1 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		C9A79EAB268CB1F1007AF9B1 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		C9A79EB0268CB318007AF9B1 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		C9A79EB4268CFDB0007AF9B1 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A79E6D268BA238007AF9B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A79E67268BA238007AF9B1 = {
+			isa = PBXGroup;
+			children = (
+				C9A79E72268BA238007AF9B1 /* GM Coding Challenge - Lawson */,
+				C9A79E71268BA238007AF9B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A79E71268BA238007AF9B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E70268BA238007AF9B1 /* GM Coding Challenge - Lawson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A79E72268BA238007AF9B1 /* GM Coding Challenge - Lawson */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79EA9268CB1A7007AF9B1 /* View */,
+				C9A79EA6268CB123007AF9B1 /* Project Files */,
+				C9A79EA3268CB077007AF9B1 /* Controller */,
+				C9A79EA2268CB06A007AF9B1 /* Model */,
+				C9A79EA1268CB055007AF9B1 /* ViewModel */,
+			);
+			path = "GM Coding Challenge - Lawson";
+			sourceTree = "<group>";
+		};
+		C9A79EA1268CB055007AF9B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E9E268CA740007AF9B1 /* SearchViewModel.swift */,
+				C9A79E88268BA5CA007AF9B1 /* MusicViewModel.swift */,
+				C9A79EB0268CB318007AF9B1 /* CellViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C9A79EA2268CB06A007AF9B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E95268BB0D5007AF9B1 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C9A79EA3268CB077007AF9B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E77268BA238007AF9B1 /* ViewController.swift */,
+				C9A79E8E268BA7B4007AF9B1 /* TableViewController.swift */,
+				C9A79EB4268CFDB0007AF9B1 /* SpinnerViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C9A79EA6268CB123007AF9B1 /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79E73268BA238007AF9B1 /* AppDelegate.swift */,
+				C9A79E75268BA238007AF9B1 /* SceneDelegate.swift */,
+				C9A79E79268BA238007AF9B1 /* Main.storyboard */,
+				C9A79E9A268CA573007AF9B1 /* TableView.storyboard */,
+				C9A79E7C268BA23A007AF9B1 /* Assets.xcassets */,
+				C9A79E7E268BA23A007AF9B1 /* LaunchScreen.storyboard */,
+				C9A79E81268BA23A007AF9B1 /* Info.plist */,
+			);
+			name = "Project Files";
+			sourceTree = "<group>";
+		};
+		C9A79EA9268CB1A7007AF9B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C9A79EAA268CB1F1007AF9B1 /* SearchTableViewCell.swift */,
+				C9A79EAB268CB1F1007AF9B1 /* SearchTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A79E6F268BA238007AF9B1 /* GM Coding Challenge - Lawson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A79E84268BA23A007AF9B1 /* Build configuration list for PBXNativeTarget "GM Coding Challenge - Lawson" */;
+			buildPhases = (
+				C9A79E6C268BA238007AF9B1 /* Sources */,
+				C9A79E6D268BA238007AF9B1 /* Frameworks */,
+				C9A79E6E268BA238007AF9B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GM Coding Challenge - Lawson";
+			productName = "GM Coding Challenge - Lawson";
+			productReference = C9A79E70268BA238007AF9B1 /* GM Coding Challenge - Lawson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A79E68268BA238007AF9B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					C9A79E6F268BA238007AF9B1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = C9A79E6B268BA238007AF9B1 /* Build configuration list for PBXProject "GM Coding Challenge - Lawson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A79E67268BA238007AF9B1;
+			productRefGroup = C9A79E71268BA238007AF9B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A79E6F268BA238007AF9B1 /* GM Coding Challenge - Lawson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A79E6E268BA238007AF9B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A79E80268BA23A007AF9B1 /* LaunchScreen.storyboard in Resources */,
+				C9A79E7D268BA23A007AF9B1 /* Assets.xcassets in Resources */,
+				C9A79E9B268CA573007AF9B1 /* TableView.storyboard in Resources */,
+				C9A79E7B268BA238007AF9B1 /* Main.storyboard in Resources */,
+				C9A79EAD268CB1F1007AF9B1 /* SearchTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A79E6C268BA238007AF9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A79E89268BA5CA007AF9B1 /* MusicViewModel.swift in Sources */,
+				C9A79E9F268CA740007AF9B1 /* SearchViewModel.swift in Sources */,
+				C9A79E96268BB0D5007AF9B1 /* MusicModel.swift in Sources */,
+				C9A79E78268BA238007AF9B1 /* ViewController.swift in Sources */,
+				C9A79EB5268CFDB0007AF9B1 /* SpinnerViewController.swift in Sources */,
+				C9A79EB1268CB318007AF9B1 /* CellViewModel.swift in Sources */,
+				C9A79E74268BA238007AF9B1 /* AppDelegate.swift in Sources */,
+				C9A79EAC268CB1F1007AF9B1 /* SearchTableViewCell.swift in Sources */,
+				C9A79E8F268BA7B4007AF9B1 /* TableViewController.swift in Sources */,
+				C9A79E76268BA238007AF9B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9A79E79268BA238007AF9B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A79E7A268BA238007AF9B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9A79E7E268BA23A007AF9B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A79E7F268BA23A007AF9B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A79E82268BA23A007AF9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A79E83268BA23A007AF9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9A79E85268BA23A007AF9B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GM Coding Challenge - Lawson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lawson-Hung.GM-Coding-Challenge---Lawson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9A79E86268BA23A007AF9B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GM Coding Challenge - Lawson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Lawson-Hung.GM-Coding-Challenge---Lawson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A79E6B268BA238007AF9B1 /* Build configuration list for PBXProject "GM Coding Challenge - Lawson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A79E82268BA23A007AF9B1 /* Debug */,
+				C9A79E83268BA23A007AF9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A79E84268BA23A007AF9B1 /* Build configuration list for PBXNativeTarget "GM Coding Challenge - Lawson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A79E85268BA23A007AF9B1 /* Debug */,
+				C9A79E86268BA23A007AF9B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A79E68268BA238007AF9B1 /* Project object */;
+}
